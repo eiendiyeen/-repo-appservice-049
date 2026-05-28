@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
- res.send('<h1>Praktikum Azure App Service</h1><p>Aplikasi berjalan.</p>');
+ res.send('<h1>Praktikum  Azure App Service</h1><p>Aplikasi berjalan.</p>');
 });
 app.get('/status', (req, res) => {
  res.json({ status: 'running', service: 'Azure App Service', timestamp: new Date() });
